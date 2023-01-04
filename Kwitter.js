@@ -1,3 +1,16 @@
+const firebaseConfig = {
+    apiKey: "AIzaSyAS6eQmSIX-bjRiu08LCHddBlpps_GHjEE",
+    authDomain: "the-twitter-ripoff.firebaseapp.com",
+    databaseURL: "https://the-twitter-ripoff-default-rtdb.firebaseio.com",
+    projectId: "the-twitter-ripoff",
+    storageBucket: "the-twitter-ripoff.appspot.com",
+    messagingSenderId: "44063736231",
+    appId: "1:44063736231:web:3e0a10fd3de9a19d5f3682",
+    measurementId: "G-9KNS37HXBL"
+  };
+  firebase.initializeApp(firebaseConfig);
+  user_name = "Kwitter_room.html"
+
 function addUser()
 {
     user_name = document.getElementById("user_name", user_name);
